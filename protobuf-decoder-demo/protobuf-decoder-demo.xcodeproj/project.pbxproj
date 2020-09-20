@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1331A9B32517136C0047A1E8 /* CoderTestStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1331A9B22517136C0047A1E8 /* CoderTestStudent.swift */; };
+		1331A9B5251725180047A1E8 /* DefaultStringStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1331A9B4251725180047A1E8 /* DefaultStringStudent.swift */; };
+		1331A9B725172F970047A1E8 /* CustomDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1331A9B625172F970047A1E8 /* CustomDecoder.swift */; };
 		13B37B63251712B100FAEA87 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B37B62251712B100FAEA87 /* main.swift */; };
 		13B37B6A2517131900FAEA87 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B37B692517131900FAEA87 /* Decoder.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		1331A9B22517136C0047A1E8 /* CoderTestStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoderTestStudent.swift; sourceTree = "<group>"; };
+		1331A9B4251725180047A1E8 /* DefaultStringStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStringStudent.swift; sourceTree = "<group>"; };
+		1331A9B625172F970047A1E8 /* CustomDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecoder.swift; sourceTree = "<group>"; };
 		13B37B5F251712B100FAEA87 /* protobuf-decoder-demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "protobuf-decoder-demo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B37B62251712B100FAEA87 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		13B37B692517131900FAEA87 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				13B37B62251712B100FAEA87 /* main.swift */,
 				13B37B692517131900FAEA87 /* Decoder.swift */,
 				1331A9B22517136C0047A1E8 /* CoderTestStudent.swift */,
+				1331A9B4251725180047A1E8 /* DefaultStringStudent.swift */,
+				1331A9B625172F970047A1E8 /* CustomDecoder.swift */,
 			);
 			path = "protobuf-decoder-demo";
 			sourceTree = "<group>";
@@ -126,9 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1331A9B5251725180047A1E8 /* DefaultStringStudent.swift in Sources */,
 				1331A9B32517136C0047A1E8 /* CoderTestStudent.swift in Sources */,
 				13B37B6A2517131900FAEA87 /* Decoder.swift in Sources */,
 				13B37B63251712B100FAEA87 /* main.swift in Sources */,
+				1331A9B725172F970047A1E8 /* CustomDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
